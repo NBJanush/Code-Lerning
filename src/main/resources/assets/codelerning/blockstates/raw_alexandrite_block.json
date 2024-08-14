@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "codelerning:block/raw_alexandrite_block"
+    }
+  }
+}
