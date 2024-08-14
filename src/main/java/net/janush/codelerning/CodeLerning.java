@@ -55,6 +55,7 @@ public class CodeLerning
             event.accept(ModItems.RAW_ALEXANDRITE);
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_ORE);
         }
     }
 
