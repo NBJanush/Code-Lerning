@@ -2,6 +2,7 @@ package net.janush.codelerning;
 
 import com.mojang.logging.LogUtils;
 import net.janush.codelerning.block.ModBlocks;
+import net.janush.codelerning.item.ModFoods;
 import net.janush.codelerning.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -56,6 +57,13 @@ public class CodeLerning
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_ORE);
+            event.accept(ModItems.PINE_CONE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.METAL_DETECTOR);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.STRAWBERRY);
         }
     }
 

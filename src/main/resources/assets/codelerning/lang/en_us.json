@@ -3,5 +3,9 @@
   "item.codelerning.alexandrite": "Alexandrite",
   "item.codelerning.raw_alexandrite": "Raw Alexandrite",
   "block.codelerning.raw_alexandrite_block": "Raw Alexandrite Block",
-  "block.codelerning.raw_alexandrite_ore": "Raw Alexandrite Ore"
+  "block.codelerning.raw_alexandrite_ore": "Raw Alexandrite Ore",
+  "item.codelerning.metal_detector": "Metal Detector",
+  "item.codelerning.strawberry": "Strawberry",
+  "item.codelerning.pine_cone": "Pine Cone",
+  "tooltip.codelerning.metal_detector.tooltip": "Helps Find Valuable Ores!"
 }
